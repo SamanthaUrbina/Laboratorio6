@@ -1,0 +1,91 @@
+body {
+  background: linear-gradient(to right, #fff1f0, #ffe4e1);
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.5;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #ff758c, #ff7eb3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand,
+.nav-link {
+  color: #ff389f !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #ffeaea !important;
+  transform: scale(1.05);
+}
+
+.nav-link.active {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #ff5e78;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 8px;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  background: #fff5f7;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.carousel img {
+  max-height: 350px;
+  object-fit: contain;
+}
+
+.list-group-item {
+  border: none;
+  background: #ffe3ea;
+  border-radius: 10px !important;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+}
